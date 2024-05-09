@@ -5,6 +5,7 @@ const App = () => {
     <>
       <h1>Fernanda Nuñez</h1>
       <p>Aquí debe ir la fotografía</p>
+      <img alt='Fernanda' src='./src/assets/img/fernanda.jpeg' />
       <h2>Descripción</h2>
       <div>
         <p>Aquí deben ir los proyectos</p>
