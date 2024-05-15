@@ -1,8 +1,11 @@
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import { Navigation } from './components/Navigation'
 
 const App = () => {
   return (
     <>
+      <Navigation />
       <div className='presentacion'>
         <h1>Desarolladora Full Stack</h1>
         <h2>Fernanda Nuñez</h2>
