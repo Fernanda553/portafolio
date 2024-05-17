@@ -7,9 +7,9 @@ export const Navigation = () => {
       <Container>
         <Navbar.Brand href='#home'>Navbar</Navbar.Brand>
         <Nav className='me-auto'>
-          <Nav.Link href='#home'>Home</Nav.Link>
-          <Nav.Link href='#features'>Features</Nav.Link>
-          <Nav.Link href='#pricing'>Pricing</Nav.Link>
+          <Nav.Link href='home'><i class='fa-brands fa-linkedin fa-3x' />
+            <i class='fa-brands fa-github fa-3x' />
+          </Nav.Link>
         </Nav>
       </Container>
     </Navbar>
