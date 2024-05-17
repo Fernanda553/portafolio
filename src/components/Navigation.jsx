@@ -3,12 +3,22 @@ import { Container, Nav, Navbar } from 'react-bootstrap'
 
 export const Navigation = () => {
   return (
-    <Navbar bg='dark' data-bs-theme='dark'>
-      <Container>
-        <Navbar.Brand href='#home'>Navbar</Navbar.Brand>
-        <Nav className='me-auto'>
-          <Nav.Link href='home'><i class='fa-brands fa-linkedin fa-3x' />
-            <i class='fa-brands fa-github fa-3x' />
+    <Navbar bg='dark' data-bs-theme='dark' className='fixed-top'>
+      <Container fluid>
+        <Nav className='ms-auto'>
+          <Nav.Link
+            href='https://www.linkedin.com/in/fernandanunezespinoza/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <i class='navigation fa-brands fa-linkedin fa-lg' />
+          </Nav.Link>
+          <Nav.Link
+            href='https://github.com/Fernanda553'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <i class='navigation fa-brands fa-github fa-lg' />
           </Nav.Link>
         </Nav>
       </Container>
