@@ -7,6 +7,32 @@
 
 .navigation{
   color: #f8aecc;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.icons {
+  color: #f8aecc;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .nav-link {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+.fa-brands {
+  margin-left: 0.5rem;
 }
 
 .stack-tecnologico{
