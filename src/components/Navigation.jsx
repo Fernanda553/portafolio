@@ -7,6 +7,9 @@ export const Navigation = () => {
     <Navbar bg='dark' data-bs-theme='dark' className='fixed-top'>
       <Container fluid>
         <Nav className='me-auto'>
+          <Nav.Link as={Link} to='introduccion' smooth duration={100}>
+            <p className='navigation'>Sobre mi</p>
+          </Nav.Link>
           <Nav.Link as={Link} to='tecnologias' smooth duration={100}>
             <p className='navigation'>Tecnologías</p>
           </Nav.Link>

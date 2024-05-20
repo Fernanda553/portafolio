@@ -8,7 +8,7 @@ const App = () => {
     <>
       <Navigation />
       <Container fluid className='p-0'>
-        <section className='presentacion'>
+        <section id='introduccion' className='presentacion'>
           <h1>Desarolladora Full Stack</h1>
           <h2>Fernanda Nuñez</h2>
           <img alt='Fernanda' src='./src/assets/img/fernanda.jpeg' />
