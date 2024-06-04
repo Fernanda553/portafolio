@@ -43,7 +43,12 @@
  }
 
  .presentacion {
-  display: block;
+  display: flex;
+ }
+
+ img{
+  width: 500px;
+  height: 500px;
  }
 .stack-tecnologico{
   background-color: #000;

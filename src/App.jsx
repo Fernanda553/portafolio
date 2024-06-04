@@ -10,7 +10,7 @@ const App = () => {
       <Navigation />
       <Container fluid className='p-0'>
         <section id='introduccion' className='presentacion'>
-          <img alt='Fernanda fotografía' src='./src/assets/img/fernanda.jpeg' />
+          <img alt='Fernanda fotografía' src='./src/assets/img/fernandanunez.jpeg' />
           <article>
             <h1>Fernanda Nuñez</h1>
             <h2>Desarolladora Full Stack</h2>

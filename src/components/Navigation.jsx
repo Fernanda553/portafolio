@@ -24,14 +24,14 @@ export const Navigation = () => {
           <Nav.Link
             href='https://www.linkedin.com/in/fernandanunezespinoza/'
             target='_blank'
-            rel='noopener noreferrer'
+            rel='noreferrer'
           >
             <i class='icons fa-brands fa-linkedin fa-lg' />
           </Nav.Link>
           <Nav.Link
             href='https://github.com/Fernanda553'
             target='_blank'
-            rel='noopener noreferrer'
+            rel='noreferrer'
           >
             <i class='icons fa-brands fa-github fa-lg' />
           </Nav.Link>
