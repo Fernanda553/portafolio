@@ -2,7 +2,7 @@
   width: 100%;
   margin: 0 auto;
   padding: 0;
-  text-align: center;
+  box-sizing: border-box;
 }
 
 .navigation{
@@ -18,11 +18,11 @@
 
 .icons {
   color: #f8aecc;
+  margin: 3px;
 }
 
-.nav-link {
-  display: flex;
-  align-items: center;
+.icons:hover{
+  color: #fbf2fa;
 }
 
 .navbar-nav .nav-link {
@@ -34,6 +34,7 @@
 .fa-brands {
   margin-left: 0.5rem;
 }
+
  section {
   height: 100vh;
   display: flex;
@@ -42,25 +43,28 @@
   font-size: 2em;
  }
 
- .presentacion {
+.presentation {
   display: flex;
+  background: rgb(247,249,212);
+  background: linear-gradient(0deg, rgba(247,249,212,1) 9%, rgba(252,156,255,1) 44%, rgba(199,139,227,1) 84%);
  }
 
  img{
   width: 500px;
   height: 500px;
  }
-.stack-tecnologico{
+
+.technologies{
   background-color: #000;
   color: #fbf2fa;
 }
 
-.proyectos{
+.proyects{
   background-color: #f563e4;
   color: #950084;
 }
 
-.contacto{
+.contact{
   background-color: #ffcaf9;
   color: #000;
 }

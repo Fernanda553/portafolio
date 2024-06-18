@@ -1,41 +1,46 @@
 import React from 'react'
-import { Container, Nav, Navbar } from 'react-bootstrap'
+import { Container, Nav, NavLink, Navbar } from 'react-bootstrap'
 import { Link } from 'react-scroll'
+
+const navItems = [
+  { to: 'introduction', label: 'Sobre mi' },
+  { to: 'technologies', label: 'Tecnologías' },
+  { to: 'proyects', label: 'Proyectos' },
+  { to: 'contact', label: 'Contáctame' }
+]
 
 export const Navigation = () => {
   return (
-    <Navbar bg='dark' data-bs-theme='dark' className='fixed-top'>
+    <Navbar bg='dark' data-bs-theme='dark' expand='lg' className='fixed-top'>
       <Container fluid>
-        <Nav className='me-auto'>
-          <Nav.Link as={Link} to='introduccion' smooth duration={100}>
-            <p className='navigation'>Sobre mi</p>
-          </Nav.Link>
-          <Nav.Link as={Link} to='tecnologias' smooth duration={100}>
-            <p className='navigation'>Tecnologías</p>
-          </Nav.Link>
-          <Nav.Link as={Link} to='proyectos' smooth duration={100}>
-            <p className='navigation'>Proyectos</p>
-          </Nav.Link>
-          <Nav.Link as={Link} to='contactame' smooth duration={100}>
-            <p className='navigation'>Contáctame</p>
-          </Nav.Link>
-        </Nav>
-        <Nav className='ms-auto'>
-          <Nav.Link
-            href='https://www.linkedin.com/in/fernandanunezespinoza/'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <i class='icons fa-brands fa-linkedin fa-lg' />
-          </Nav.Link>
-          <Nav.Link
-            href='https://github.com/Fernanda553'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <i class='icons fa-brands fa-github fa-lg' />
-          </Nav.Link>
-        </Nav>
+        <Navbar.Toggle aria-controls='basic-navbar-nav' className='ms-auto' />
+        <Navbar.Collapse className='justify-content-end'>
+          <Nav className='me-auto align-items-end'>
+            {navItems.map((item) => (
+              <Nav.Link as={Link} to={item.to} smooth duration={100} key={item.to}>
+                <p className='navigation'>{item.label}</p>
+              </Nav.Link>
+            ))}
+          </Nav>
+          <Nav className='d-flex align-items-end ms-auto'>
+            <NavLink
+              href='https://www.linkedin.com/in/fernandanunezespinoza/'
+              target='_blank'
+              rel='noreferrer'
+              className='icons'
+            >
+              <i class='icons fa-brands fa-linkedin fa-lg' />
+            </NavLink>
+            <Nav.Link
+              href='https://github.com/Fernanda553'
+              target='_blank'
+              rel='noreferrer'
+              className='icons'
+            >
+              <i class='icons fa-brands fa-github fa-lg' />
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   )
