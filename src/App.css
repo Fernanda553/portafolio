@@ -45,13 +45,14 @@
 
 .presentation {
   display: flex;
-  background: rgb(247,249,212);
-  background: linear-gradient(0deg, rgba(247,249,212,1) 9%, rgba(252,156,255,1) 44%, rgba(199,139,227,1) 84%);
+  background: rgb(199,139,227);
+background: linear-gradient(0deg, rgba(199,139,227,1) 9%, rgba(241,165,244,1) 31%, rgba(251,249,204,1) 87%);
  }
 
  img{
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
+  border-radius: 40%;
  }
 
 .technologies{

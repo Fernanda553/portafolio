@@ -8,19 +8,18 @@ const App = () => {
   return (
     <Container fluid className='p-0'>
       <Navigation />
-      <section id='introduction' className='presentation'>
+      <section id='presentacion' className='presentation'>
         <img alt='Fernanda fotografía' src='./src/assets/img/fernandanunez.jpeg' />
-        <article>
+        <div>
           <h1>Fernanda Nuñez</h1>
           <h2>Desarolladora Full Stack</h2>
-          <p>Desarrolladora FullStack con una sólida formación en el Desarrollo de Aplicaciones Web y
-            enfocada tanto en la eficiencia del código como en la experiencia del usuario.
-
-            Actualmente busco espacios de desarrollo donde mi creatividad y habilidades técnicas sean
-            valoradas, y en las que pueda contribuir a través de la implementación de soluciones
-            innovadoras
+          <p>
+            Apasionada y siempre dispuesta a enfrentar nuevos desafíos, amante de la colaboración,
+            la comunicación y el aprendizaje continuo, lo que me permine adaptarme rápidamente a nuevas tecnologías
+            y metodologías. Estoy comprometida con la creación de soluciones innovadoras y productos
+            de alta calidad que superen las expectativas de los usuarios.
           </p>
-        </article>
+        </div>
       </section>
       <section id='technologies' className='technologies'>
         <p>Aquí debe ir el stack tecnologico</p>

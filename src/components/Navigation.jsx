@@ -3,10 +3,15 @@ import { Container, Nav, NavLink, Navbar } from 'react-bootstrap'
 import { Link } from 'react-scroll'
 
 const navItems = [
-  { to: 'introduction', label: 'Sobre mi' },
+  { to: 'presentacion', label: 'Sobre mi' },
   { to: 'technologies', label: 'Tecnologías' },
   { to: 'proyects', label: 'Proyectos' },
   { to: 'contact', label: 'Contáctame' }
+]
+
+const navIcons = [
+  { href: 'https://www.linkedin.com/in/fernandanunezespinoza/', iconClass: 'fa-linkedin' },
+  { href: 'https://github.com/Fernanda553', iconClass: 'fa-github' }
 ]
 
 export const Navigation = () => {
@@ -22,23 +27,18 @@ export const Navigation = () => {
               </Nav.Link>
             ))}
           </Nav>
-          <Nav className='d-flex align-items-end ms-auto'>
-            <NavLink
-              href='https://www.linkedin.com/in/fernandanunezespinoza/'
-              target='_blank'
-              rel='noreferrer'
-              className='icons'
-            >
-              <i class='icons fa-brands fa-linkedin fa-lg' />
-            </NavLink>
-            <Nav.Link
-              href='https://github.com/Fernanda553'
-              target='_blank'
-              rel='noreferrer'
-              className='icons'
-            >
-              <i class='icons fa-brands fa-github fa-lg' />
-            </Nav.Link>
+          <Nav className='d-flex p-0 m-0 align-items-end ms-auto'>
+            {navIcons.map((icon) => (
+              <NavLink
+                key={icon.iconClass}
+                href={icon.href}
+                target='_blank'
+                rel='noreferrer'
+                className='icons'
+              >
+                <i class={`icons fa-brands ${icon.iconClass} fa-lg`} />
+              </NavLink>
+            ))}
           </Nav>
         </Navbar.Collapse>
       </Container>
