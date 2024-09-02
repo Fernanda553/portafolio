@@ -5,6 +5,7 @@ import { Container } from 'react-bootstrap'
 import { Footer } from './components/Footer'
 import { Presentation } from './views/Presentation'
 import { Technologies } from './views/Technologies'
+import { Proyects } from './views/Proyects'
 
 const App = () => {
   return (
@@ -17,7 +18,7 @@ const App = () => {
         <Technologies />
       </section>
       <section id='proyects' className='proyects'>
-        <p>Aquí deben ir los proyectos</p>
+        <Proyects />
       </section>
       <section id='contact' className='contact'>
         <p>contactame</p>
