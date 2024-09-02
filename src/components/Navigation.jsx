@@ -36,7 +36,7 @@ export const Navigation = () => {
                 rel='noreferrer'
                 className='icons'
               >
-                <i class={`icons fa-brands ${icon.iconClass} fa-lg`} />
+                <i className={`icons fa-brands ${icon.iconClass} fa-lg`} />
               </NavLink>
             ))}
           </Nav>

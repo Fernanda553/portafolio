@@ -1,6 +1,6 @@
 import { Container } from 'react-bootstrap'
 
-export const Presentation = () => {
+const Presentation = () => {
   return (
     <Container fluid className='presentation'>
       <img alt='Fernanda fotografía' src='./src/assets/img/fernandanunez.jpeg' />
@@ -15,3 +15,5 @@ export const Presentation = () => {
     </Container>
   )
 }
+
+export default Presentation

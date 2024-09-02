@@ -3,10 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { Navigation } from './components/Navigation'
 import { Container } from 'react-bootstrap'
 import { Footer } from './components/Footer'
-import { Presentation } from './views/Presentation'
-import { Technologies } from './views/Technologies'
-import { Proyects } from './views/Proyects'
-import { Contact } from './views/Contact'
+import { Contact, Presentation, Proyects, Technologies } from './views'
 
 const App = () => {
   return (
