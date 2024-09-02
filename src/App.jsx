@@ -6,6 +6,7 @@ import { Footer } from './components/Footer'
 import { Presentation } from './views/Presentation'
 import { Technologies } from './views/Technologies'
 import { Proyects } from './views/Proyects'
+import { Contact } from './views/Contact'
 
 const App = () => {
   return (
@@ -21,7 +22,7 @@ const App = () => {
         <Proyects />
       </section>
       <section id='contact' className='contact'>
-        <p>contactame</p>
+        <Contact />
       </section>
       <Footer />
     </Container>
