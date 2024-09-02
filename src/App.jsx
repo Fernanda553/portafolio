@@ -4,6 +4,7 @@ import { Navigation } from './components/Navigation'
 import { Container } from 'react-bootstrap'
 import { Footer } from './components/Footer'
 import { Presentation } from './views/Presentation'
+import { Technologies } from './views/Technologies'
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
         <Presentation />
       </section>
       <section id='technologies' className='technologies'>
-        <p>Aquí debe ir el stack tecnologico</p>
+        <Technologies />
       </section>
       <section id='proyects' className='proyects'>
         <p>Aquí deben ir los proyectos</p>
