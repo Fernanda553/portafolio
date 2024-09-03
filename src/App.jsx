@@ -9,7 +9,7 @@ const App = () => {
   return (
     <Container fluid className='p-0'>
       <Navigation />
-      <section id='presentacion'>
+      <section id='presentacion' className='presentation'>
         <Presentation />
       </section>
       <section id='technologies' className='technologies'>
