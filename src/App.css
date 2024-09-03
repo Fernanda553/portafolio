@@ -88,8 +88,65 @@ background: linear-gradient(0deg, rgba(199,139,227,1) 9%, rgba(241,165,244,1) 31
 }
 
 .technologies{
-  background-color: #000;
-  color: #fbf2fa;
+  background: rgb(199,139,227);
+  background: linear-gradient(180deg, rgba(199,139,227,1) 9%, rgba(241,165,244,1) 31%, rgba(251,249,204,1) 87%);
+}
+
+.technologies-section {
+  padding: 50px 0;
+  background-color: rgba(53, 53, 52, 0.9);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.technologies-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0b0b0b;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.technology-category {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #e2ecf6;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.technology-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.technology-icon {
+  width: 60px;
+  margin: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.technology-icon:hover {
+  transform: scale(1.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact-links {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.contact-link-icon {
+  width: 60px;
+  margin: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-link-icon:hover {
+  transform: scale(1.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .proyects{
