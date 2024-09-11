@@ -23,20 +23,16 @@ const Presentation = () => {
             className='profile-image'
           />
         </Col>
-        <Col xs={12} md={6}>
-          <h1
-            ref={nameElement}
-            className='name text-center text-md-start'
-          >
-            Fernanda Núñez
+        <Col xs={12} md={6} className='text-md-start text-center'>
+          <h1 ref={nameElement} className='name'>
+            Fernanda Nuñez
           </h1>
-          <h2
-            className='text-muted mb-4 text-center text-md-start'
-          >Desarrolladora Full Stack
+          <br />
+          <h2 className='subtitle'>
+            Desarrolladora Full Stack
           </h2>
-          <p
-            className='lead text-center text-md-start'
-          >
+          <br />
+          <p className='description lead'>
             Soy una desarrolladora apasionada, siempre dispuesta a enfrentar nuevos desafíos. Me encanta colaborar y
             comunicarme efectivamente, y estoy comprometida con el aprendizaje continuo, lo que me permite adaptarme
             rápidamente a nuevas tecnologías y metodologías. Mi enfoque está en crear soluciones innovadoras y productos

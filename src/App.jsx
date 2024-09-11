@@ -9,16 +9,16 @@ const App = () => {
   return (
     <Container fluid className='p-0'>
       <Navigation />
-      <section id='presentacion' className='presentation'>
+      <section id='presentacion'>
         <Presentation />
       </section>
-      <section id='technologies' className='technologies'>
+      <section id='technologies'>
         <Technologies />
       </section>
-      <section id='proyects' className='proyects'>
+      <section id='proyects'>
         <Proyects />
       </section>
-      <section id='contact' className='contact'>
+      <section id='contact'>
         <Contact />
       </section>
       <Footer />
