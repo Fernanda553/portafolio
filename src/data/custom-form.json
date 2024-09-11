@@ -1,0 +1,74 @@
+[
+    {
+        "type": "input",
+        "name": "firstName",
+        "placeholder": "Fernanda",
+        "label": "First Name",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            },
+            {
+                "type": "minLength",
+                "value": 5
+            }
+        ]
+    },
+    {
+        "type": "input",
+        "name": "lastName",
+        "placeholder": "Nuñez",
+        "label": "Last Name",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            }
+        ]
+    },
+    {
+        "type": "email",
+        "name": "email",
+        "placeholder": "fernanda@gmail.com",
+        "label": "Email",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            },
+            {
+                "type": "email"
+            }
+        ]
+    },
+    {
+        "type": "select",
+        "name": "jobType",
+        "label": "Cargo",
+        "value": "",
+        "options": [
+            {
+                "id": 1,
+                "label": "Developer"
+            },
+            {
+                "id": 2,
+                "label": "Designer"
+            },
+            {
+                "id": 3,
+                "label": "IT senior"
+            },
+            {
+                "id": 4,
+                "label": "IT Junior"
+            }
+        ],
+        "validations": [
+            {
+                "type": "required"
+            }
+        ]
+    }
+]
