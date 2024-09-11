@@ -1,6 +1,6 @@
 import { ErrorMessage, useField } from 'formik'
 
-export const MySelect = ({ label, ...props }) => {
+const MySelect = ({ label, ...props }) => {
   const [field] = useField(props)
   return (
     <>
@@ -10,3 +10,5 @@ export const MySelect = ({ label, ...props }) => {
     </>
   )
 }
+
+export default MySelect

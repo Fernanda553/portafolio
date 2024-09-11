@@ -2,7 +2,7 @@ import React from 'react'
 
 import { ErrorMessage, useField } from 'formik'
 
-export const MyCheckBox = ({ label, ...props }) => {
+const MyCheckBox = ({ label, ...props }) => {
   const [field] = useField({ ...props, type: 'checkbox' })
   return (
     <>
@@ -14,3 +14,5 @@ export const MyCheckBox = ({ label, ...props }) => {
     </>
   )
 }
+
+export default MyCheckBox

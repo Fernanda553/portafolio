@@ -14,7 +14,7 @@ const navIcons = [
   { href: 'https://github.com/Fernanda553', iconClass: 'fa-github' }
 ]
 
-export const Navigation = () => {
+const Navigation = () => {
   return (
     <Navbar bg='dark' data-bs-theme='dark' expand='lg' className='fixed-top'>
       <Container fluid>
@@ -45,3 +45,5 @@ export const Navigation = () => {
     </Navbar>
   )
 }
+
+export default Navigation

@@ -99,7 +99,6 @@
 .technologies-section {
   padding: 50px 0;
   background-color: rgba(210, 170, 215, 0.9);
-  padding: 30px;
   border-radius: 15px;
   box-shadow: 0 10px 20px rgb(98, 97, 98);
 }
@@ -151,4 +150,30 @@
 .contact-link-icon:hover {
   transform: scale(1.2);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+input, select {
+  margin-top: 5px;
+  outline: none;
+  padding: 10px;
+}
+
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+span, .error-message {
+  color: red;
+}
+
+.has-error {
+  border: 1px solid red;
 }
